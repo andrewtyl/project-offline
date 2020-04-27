@@ -1,8 +1,8 @@
 {
-  "name": "React Boilerplate",
-  "short_name": "React Boilerplate",
-  "theme_color": "#61dbfb",
-  "background_color": "#282c34",
+  "name": "Project Offline",
+  "short_name": "Project Offline",
+  "theme_color": "#cccccc",
+  "background_color": "#303030",
   "display": "browser",
   "Scope": "/",
   "start_url": "/",

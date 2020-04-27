@@ -1,32 +1,25 @@
-import React, {Component} from 'react';
-//import {BrowserRouter as Router, Switch, Route, Link, NavLink} from 'react-router-dom';
-import './styles/normalize.css'
-import './styles/App.css';
-import HttpsRedirect from 'react-https-redirect';
+import React, { Component } from "react";
+import "./styles/normalize.css";
+import "./styles/App.css";
 
 class App extends Component {
   render() {
     return (
-      <HttpsRedirect>
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-      </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-      </a>
-        </header>
-      </div>
-      </HttpsRedirect>
-    )
+        <div className="App">
+          <header>
+            <h1>This Project is Currently Offline</h1>
+            <h2>
+              Please contact <a href="mailto: ajessen@ajessen.com">ajessen@ajessen.com</a> if you would like a live
+              version to be put up for your use.
+            </h2>
+          </header>
+          <footer>
+                <p>Copyright 2020 AJessen. MIT License.</p>
+                <a href="https://github.com/andrewtyl/project-offline"><img id="github-footer-icon" src={require("./assets/GitHub-Mark-32px.png")} alt="View this Website on Github"/></a>
+            </footer>
+        </div>
+    );
   }
-
 }
 
 export default App;

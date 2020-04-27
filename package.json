@@ -1,9 +1,9 @@
 {
-  "name": "react-template",
-  "description": "A boilerplate for React, modified from Create React App. Please follow instructions in readme before starting project.",
-  "version": "1.1.0",
+  "name": "project-offline",
+  "description": "A Simple React App as a placeholder for inactive projects",
+  "version": "1.0.0",
   "author": "Andrew Jessen-Tyler",
-  "homepage": "",
+  "homepage": "http://offline.ajessen.com/",
   "license": "MIT",
   "licenses": [
     {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/andrewtyl/project-offline.git"
   },
   "keywords": [
     "react"

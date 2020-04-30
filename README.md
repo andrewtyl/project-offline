@@ -1,4 +1,4 @@
-# Project Offline
+# Project Offline [![Build Status](https://travis-ci.com/andrewtyl/project-offline.svg?branch=master)](https://travis-ci.com/andrewtyl/project-offline)
 ## Andrew Jessen-Tyler
 
 This is just a simple React App I made to use when one of my projects is offline, but I want to keep the subdomain reserved and advise people who visit it. <br/> This was made from my "react-boilerplate" template, which you can find [here](https://github.com/andrewtyl/react-boilerplate).
